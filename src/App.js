@@ -7,19 +7,19 @@ const INITIAL_COST = [
     id: 'c1',
     date: new Date(2022, 10, 28),
     description: 'Холодильник',
-    amount: 999,
+    amount: 75000,
   },
   {
     id: 'c2',
     date: new Date(2022, 10, 28),
     description: 'MacBook',
-    amount: 1254,
+    amount: 80000,
   },
   {
     id: 'c3',
     date: new Date(2022, 10, 28),
     description: 'Jeans',
-    amount: 300,
+    amount: 2300,
   }
 ]
 
@@ -27,6 +27,7 @@ const INITIAL_COST = [
 const App = () => {
 
   const [costs, setCosts] = useState(INITIAL_COST)
+
 
   const addCostHandler = (cost) => {
     setCosts(prevCosts => {
