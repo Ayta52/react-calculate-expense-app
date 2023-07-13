@@ -1,4 +1,4 @@
-import "./CostsFilter.css";
+import './CostsFilter.css';
 
 const CostsFilter = (props) => {
   const yearChangeHandler = (event) => {
